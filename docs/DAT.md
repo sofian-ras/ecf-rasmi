@@ -1,6 +1,6 @@
 # dossier d'architecture technique (dat)
 
-## 1. choix d'architecture globale
+## QUESTION 1. choix d'architecture globale
 
 nous avons choisi une **architecture type data lake**.  
 
@@ -20,7 +20,7 @@ nous avons choisi une **architecture type data lake**.
 
 ---
 
-## 2. choix des technologies
+## QUESTION 2. choix des technologies
 
 - **stockage des données brutes** : fichiers csv et minio pour les images  
   - justification : facile à manipuler, durable, permet de stocker les images et fichiers lourds  
@@ -36,7 +36,7 @@ nous avons choisi une **architecture type data lake**.
 
 ---
 
-## 3. organisation des données
+## QUESTION 3. organisation des données
 
 - dossiers principaux :  
   - `data/` pour les données brutes et transformées  
@@ -55,7 +55,7 @@ nous avons choisi une **architecture type data lake**.
 
 ---
 
-## 4. modélisation des données
+## QUESTION 4. modélisation des données
 
 - modèle final : tables relationnelles simples  
 
@@ -71,7 +71,7 @@ nous avons choisi une **architecture type data lake**.
 
 ---
 
-## 5. conformité rgpd
+## QUESTION 5. conformité rgpd
 
 - données personnelles identifiées :  
   - nom, email, téléphone du contact des librairies  
@@ -83,5 +83,3 @@ nous avons choisi une **architecture type data lake**.
 
 - droit à l’effacement :  
   - suppression manuelle ou automatique des enregistrements contenant des données personnelles sur demande  
-
----
